@@ -1,0 +1,72 @@
+/******************************
+Common styles
+*******************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    right:0;
+    left:0;
+    top: 0;
+    bottom: 0;
+}
+
+body {
+    background-color: #D5E1EF;
+    color: #21324E;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/******************************
+QR Box Styles
+*******************************/
+
+.center {
+    margin: auto;
+    width: 50%;
+  }
+
+#qr-code {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 19px;
+    width: 320px;
+    height: 495px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+#qr-image {
+    height: 289px;
+    border-radius: 9px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+p {
+    color: #989BA4;
+    text-align: center;
+}
